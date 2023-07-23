@@ -38,7 +38,7 @@ const Home = () => {
           h="full"
           p={'4'}
           alignItems={'center'}
-          direction={['column', 'row']}
+          direction={['column', 'row']} // stack elements will be aligned in row for larger screen and coloumn for small
         >
           <Image src={img5} h={['40', '400']} filter={'hue-rotate(-130deg)'} />
 
